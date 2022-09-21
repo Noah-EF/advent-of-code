@@ -1,3 +1,5 @@
+# In progress
+
 f = open("day9input.txt", "r")
 data = f.readlines()
 data = [list(map(int, data[x][:len(data[x])-1])) for x in range(len(data))]
